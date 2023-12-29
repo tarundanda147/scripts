@@ -1,5 +1,5 @@
 #!/bin/bash
-var="10 50 30 40 80"
+var="10 120 50 30 40 80"
 count=1
 for i in $var
 do
