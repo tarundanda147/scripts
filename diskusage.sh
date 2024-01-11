@@ -1,7 +1,7 @@
 #!/bin/bash
-echo "enter the disk free command"
-read diskfree
-$diskfree > /home/ubuntu/output
+#echo "enter the disk free command"
+#read diskfree
+df -h >output
 sed -i 's/%//g' /home/ubuntu/output
 count=1
 while read line
@@ -12,5 +12,6 @@ do
 		echo "$usage"
 	fi
 	count=`expr $count + 1`
-done < /home/ubuntu/output
+done < output
+rm output
 
