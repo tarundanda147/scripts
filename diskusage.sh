@@ -2,7 +2,7 @@
 #echo "enter the disk free command"
 #read diskfree
 df -h >output
-sed -i 's/%//g' /home/ubuntu/output
+sed -i 's/%//g' output
 count=1
 while read line
 do
