@@ -1,6 +1,6 @@
 #!/bin/bash
-echo "enter the string"
-read string
+#echo "enter the string"
+#read string
 
 pallin=`echo $string | rev`
 
