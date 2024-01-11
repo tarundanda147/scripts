@@ -4,3 +4,4 @@ if [ $usage -ge 20 ]
 then
 	echo "Disk reached the thresholdvalue" | mail -s "disk usage" honeythelab147@gmail.com
 fi
+echo "$usage"
