@@ -12,7 +12,7 @@ case $3 in
 	'-')diff=`expr $1 - $2`
 		echo "difference of two numbers:$diff"
 		;;
-	'*')mult=`expr $1 \* $2`
+	'm')mult=`expr $1 \* $2`
 		echo "product of two numbers:$mult"
 		;;
 	'/')if [ $2 -eq 0 ]
