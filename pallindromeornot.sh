@@ -10,3 +10,4 @@ then
 else
 	echo "IT IS NOT AN PALLINDROME"
 fi
+echo "$string"
